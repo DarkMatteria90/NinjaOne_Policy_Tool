@@ -1,0 +1,21 @@
+# 1. Secret API Credentials (NEVER upload this!)
+config.json
+
+# 2. Local app data and user-generated templates
+template.json
+templates/*.json
+
+# 3. Python Virtual Environments (Too large and unnecessary for GitHub)
+venv/
+env/
+.venv/
+
+# 4. Python Cache Files (Auto-generated garbage)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 5. OS-specific system files
+.DS_Store
+Thumbs.db
